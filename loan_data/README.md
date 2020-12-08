@@ -39,7 +39,7 @@ Common issues include integrating data from internal and external sources, prior
 Automation and the application of data science enables organizations to integrate data more easily, apply matching rules at scale, auto-certify low-risk accounts, and focus effort on exceptions
 
 ### The goal of the code is to explore loan application data
-</br></br>As part of the exploration
+
 * Data relates to loan applications from home credit
 * Data preparation
 * Exploratory Data Analysis
