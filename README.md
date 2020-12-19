@@ -1,4 +1,5 @@
-<img src="./img_gallery/sign.png"/>
+
+[![SC2 Video](img_gallery/SC2_youtube.png)](https://youtu.be/JVvfk56hckY "SC2 Rockwall Analytics - Click to Watch!")
 
 Sino Capital is an investment banking firm focusing on Cross-border Merger & Acquisition (“M&A”) Services. Our services include cross-border M&A advisory, fund raising, loan arrangement, and company restructuring
 
