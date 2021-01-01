@@ -1,6 +1,6 @@
 ## visual appearance and interactive behavior of a visualization
 
-HOPs enable us to experience with uncertainty in terms of countable events, just like we experience probability in our day to day lives
+HOPs enable us to experiment with uncertainty in terms of countable events/transactions, just like we experience probability in our day to day lives
 
 >From HOPs, we can infer variable dependencies as well as probabilities
 
