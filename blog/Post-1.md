@@ -1,5 +1,5 @@
 ## Predict ship time of arrival
-## JAN 26, 2021
+## Jan 26, 2021
 ## by RIHAD VARIAWA and SAMIRA VARIAWA
 ### Artificial Intelligence
 
@@ -15,13 +15,13 @@ Shipping companies publicly advertise their vessels’ *estimated time of arriva
 
 >Predicting the exact time a ship arrives in a port and starts off-loading operations poses remarkable challenges
 
-Today, a majority of companies rely on experience and improvisation to respectively guess ATA and cope with its fluctuations. **Very few service providers** are leveraging Artificial intelligence to scientifically predict ETA and help create better planning for their supply chain
+Today, a majority of companies rely on experience and improvisation to respectively guess ATA and cope with its fluctuations. ***Very few service providers are leveraging Artificial intelligence to scientifically predict ETA and help create better planning for their supply chain***
 
 >In this post, we’ll predict the arrival time of ships at ports
 
 ### Experiment
 
-ETA predictions are complex problems. *Similar to Air travel* It involves a huge number of variables and a lot of uncertainty. Machine Learning is the tool for the job. However, it’s crucial to have a baseline metric (such as an expert user or a rule-based engine) to compare the performance and understand if your model is good enough
+ETA predictions are complex problems. *Similar to Air travel*. It involves a huge number of variables and a lot of uncertainty. Machine Learning is the tool for the job. However, it’s crucial to have a baseline metric (such as an expert user or a rule-based engine) to compare the performance and understand if your model is good enough
 
 Our experiment is the challenge of accurately predicting the ship's ETA. It’s not a complete solution, but it can be seen as a guide to implement a sound and complete model, based on historical data. Our solution includes the following high-level steps:
 
@@ -94,7 +94,7 @@ Then we have the feature importance (shown in the following graph). It’s a mea
 
 The graph shows that accumulated distance is the most important feature (which is expected, given the high correlation with the target), followed by efficiency (an artificial feature we created to ponder the impact of the ship displacement over time). In third place, we have destination port, closer to the encoded geoposition
 
-### Summary
+### Conclusion
 
 The use of ML in predicting ship time of arrival can substantially increase the accuracy of land-side operations planning and implementation, in comparison to traditional, manual estimation methodologies that are used widely across the industry. If your company is interested in learning more about our model and how it can be consumed, do reach out  rihad.2series@outlook.com
 
