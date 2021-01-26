@@ -32,7 +32,7 @@ Our experiment is the challenge of accurately predicting the ship's ETA. It’s 
 
 The following shows multiple ship voyages of the same vessel in different colors
 
-<img src="./scr/t1.png"/>
+<img src="./src/t1.png"/>
 
 ### Methodology
 
@@ -57,19 +57,19 @@ With this graph, we compute the distance between the current position of the shi
 
 The following tables show samples of the data we used to create the dataset. The port calls (shown in the first table) are expressed by a few attributes from the ship, the port identification, and timestamps of the arrival and departure events
 
-<img src="./scr/t2.png"/>
+<img src="./src/t2.png"/>
 
 Then we have the checkpoints. A checkpoint is a message sent by each ship at a frequency X (in this case, approximately 1 day) that contains information about the ship itself and its current position. By joining both tables, we enrich the checkpoints with information about the departure and arrival, which is crucial to enclose all the other checkpoints sent between these two events. The following table is an example of ship checkpoint data
 
-<img src="./scr/t3.png"/>
+<img src="./src/t3.png"/>
 
 In the next table, both tables are joined and cleaned, with the geolocation encoded and the accumulated time and distance calculated. This view is for one particular ship, which shows all the checkpoints that belong to one given voyage
 
-<img src="./scr/t4.png"/>
+<img src="./src/t4.png"/>
 
 Finally, we have the dataset used to train our model. The first column is the label or the target value our model tries to create a regression. The rest of the columns are the features the decision tree uses during training
 
-<img src="./scr/t5.png"/>
+<img src="./src/t5.png"/>
 
 ### Model and Results
 
@@ -90,7 +90,7 @@ This result isn’t bad, but it doesn’t mean that we can’t improve the solut
 
 Then we have the feature importance (shown in the following graph). It’s a measurement of how strong or important a given feature from the dataset is for the prediction itself. Each feature has a different importance, and we want to keep only those features that are impactful for the model in the dataset
 
-<img src="./scr/t6.png"/>
+<img src="./src/t6.png"/>
 
 The graph shows that accumulated distance is the most important feature (which is expected, given the high correlation with the target), followed by efficiency (an artificial feature we created to ponder the impact of the ship displacement over time). In third place, we have destination port, closer to the encoded geoposition
 
@@ -98,4 +98,4 @@ The graph shows that accumulated distance is the most important feature (which i
 
 The use of ML in predicting ship time of arrival can substantially increase the accuracy of land-side operations planning and implementation, in comparison to traditional, manual estimation methodologies that are used widely across the industry. If your company is interested in learning more about our model and how it can be consumed, do reach out  rihad.2series@outlook.com
 
-<img src="./scr/rihad.png"/>
+<img src="./src/rihad.png"/>
