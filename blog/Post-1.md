@@ -9,7 +9,7 @@ According to the International Chamber of Shipping, 90% of world commerce happen
 
 As soon as a ship arrives at its port of call, off-loading operations begin. Bulk cargo, containers, and vehicles are discharged. Complex land-side operations are triggered by cargo off-loading, involving multiple actors. Terminal operators, trucking companies, railways, customs, and logistic service providers work together to make sure that goods are delivered according to a specific SLA to the consignee in the most efficient way
 
-### Business problem
+## Business problem
 
 Shipping companies publicly advertise their vessels’ *estimated time of arrival* (ETA) in port, and downstream supply chain activities are planned accordingly. However, delays often occur, and the ETA might differ from the vessel’s *actual time of arrival* (ATA), for instance due to technical or weather-related issues. This impacts the entire supply chain, in many instances reducing productivity and increasing waste and inefficiencies
 
@@ -19,7 +19,7 @@ Today, a majority of companies rely on experience and improvisation to respectiv
 
 >In this post, we’ll predict the arrival time of ships at ports
 
-### Experiment
+## Workflow
 
 ETA predictions are complex problems. *Similar to Air travel*. It involves a huge number of variables and a lot of uncertainty. Machine Learning is the tool for the job. However, it’s crucial to have a baseline metric (such as an expert user or a rule-based engine) to compare the performance and understand if your model is good enough
 
@@ -34,7 +34,7 @@ The following shows multiple ship voyages of the same vessel in different colors
 
 <img src="./src/t1.png"/>
 
-### Methodology
+## Methodology
 
 Vesseltracker (a Wood Mackenzie Business), focused on maritime transportation intelligence, shared with us a sample of the historical data they collect from ships (checkpoints) and ports (port calls) every day. The checkpoints contain the main characteristics of each ship, plus their current geoposition, speed, direction, draught, and more. The port calls are the dates and times of each ship’s arrival or departure
 
@@ -53,7 +53,7 @@ For feature engineering, it’s important to highlight the following steps:
 
 With this graph, we compute the distance between the current position of the ship and the destination port. This process resulted in a new feature called *accum_dist*, or accumulated distance. As the feature importance analysis shows, because this feature has a high linear correlation with the target, it has a higher importance to the model
 
-#### Dataset
+## Dataset
 
 The following tables show samples of the data we used to create the dataset. The port calls (shown in the first table) are expressed by a few attributes from the ship, the port identification, and timestamps of the arrival and departure events
 
@@ -71,7 +71,7 @@ Finally, we have the dataset used to train our model. The first column is the la
 
 <img src="./src/t5.png"/>
 
-### Model and Results
+## Model and Results
 
 After preparing the data, it’s time to train our model. We used a technique called k-fold cross validation to create six different combinations of training and validation data (approximately 80% and 20%) to explore the variation of the data as much as possible
 
@@ -94,7 +94,7 @@ Then we have the feature importance (shown in the following graph). It’s a mea
 
 The graph shows that accumulated distance is the most important feature (which is expected, given the high correlation with the target), followed by efficiency (an artificial feature we created to ponder the impact of the ship displacement over time). In third place, we have destination port, closer to the encoded geoposition
 
-### Conclusion
+## Conclusion
 
 The use of ML in predicting ship time of arrival can substantially increase the accuracy of land-side operations planning and implementation, in comparison to traditional, manual estimation methodologies that are used widely across the industry. If your company is interested in learning more about our model and how it can be consumed, do reach out  rihad.2series@outlook.com
 
