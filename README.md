@@ -6,7 +6,7 @@ Rockwall Capital, investment firm focusing on Cross-border Merger & Acquisition 
 The team has extensive experience and is highly qualified on advising clients on corporate finance matters. We are here to assist our clients achieving their strategic and financing goals by providing professional and tailor-made service
 
 ## Cross-border Merger & Acquisition
-Rockwall assists clients with our one-stop-shop solution from locating a shortlist of potential buyers / suitable targets, to facilitating negotiation, Due-Diligence, to closing the deal at conditions to client’s satisfaction. With over 2 year’s extensive experience, strong connections in the Great China Region and sufficient capital from our investor, we can also arrange financing or introduce co-investors to support our client’s M&A activities. We also have extensive international coverage to help our clients in sourcing targets especially in Europe and Asia Pacific
+Rockwall assists clients with our one-stop-shop solution from locating a shortlist of potential buyers / suitable targets, to facilitating negotiation, Due-Diligence, to closing the deal at conditions to client’s satisfaction. With extensive experience, strong connections in the Great China Region and sufficient capital from our investor, we can also arrange financing or introduce co-investors to support our client’s M&A activities. We also have extensive international coverage to help our clients in sourcing targets especially in Europe and Asia Pacific
 
 ## Corporate Restructuring
 Rockwall assists clients in reorganizing corporate structure to maximize their business efficiency and to facilitate financial activities including overseas listings, overseas loan financing as well as doing overseas business and corporate development
