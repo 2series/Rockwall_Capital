@@ -3,7 +3,7 @@
 ## by RIHAD VARIAWA
 ### Artificial Intelligence
 
-![](https://media.giphy.com/media/kca7LHdo7oTnM8tXHo/giphy.gif)
+![](https://media.giphy.com/media/3o6Zt39bNVv1gbnVmg/giphy.gif)
 
 Power utility providers have several forecasting use cases, but primary among them is *predicting energy consumption* both at the customer and aggregate level. *Predicting energy consumption* accurately is critical so customers do not face any service interruptions and to provide a stable grid system while maintaining low prices
 
